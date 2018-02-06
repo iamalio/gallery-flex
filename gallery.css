@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+ font-family: 'Rammetto One', cursive;
+ font-size:48px;
+ width: 100%;
+ display: flex;
+ color: red;
+ margin-left: 10px
+}
+.picture-grid  {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ flex-wrap: nowrap;
+ margin-bottom: 5px;
+ grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+ align-items: baseline;
+}
+.vid {
+ display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+ align-items: baseline;
+ flex-wrap: nowrap;
+}
+.grid-box {
+ border-color: lightgrey;
+ border-style: solid;
+ border-width: 1px;
+ min-width: 25%;
+ margin-left: 5px;
+ min-height:100px;
+ max-height:300px;
+}
+.grid-box img {
+ width: 100%;
+ max-height: 280px;
+}
